@@ -17,6 +17,7 @@ const man = {
     department: ' history',
     gender : 'female',
 }
+////////////// HERE -- I WRITE FILES BY CREATING  JSON FORMAT
 // fs.writeFileSync('boys/kate.txt',JSON.stringify(man), err=>{
 //     if(err) console.log('Error')
 // } );
