@@ -1,1 +1,0 @@
-{"name":"kate","age":22,"department":" history","gender":"female"}

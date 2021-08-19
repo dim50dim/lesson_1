@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69d12ca3-2de1-4e7f-8ab5-4cbc9abbbb38" name="Changes" comment="" />
+    <list default="true" id="69d12ca3-2de1-4e7f-8ab5-4cbc9abbbb38" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boys/alex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boys/anna.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boys/emma.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boys/kate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boys/mike.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boys/olga.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/girls/alla.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/girls/john.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/girls/tifany.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/girls/tom.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1wt9xq3vzd0ABcUucLsymcWYAjQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,6 +43,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\NodeJs\boys" />
+      <recent name="D:\NodeJs\girls" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
@@ -32,11 +63,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629267267258</updated>
-      <workItem from="1629267268649" duration="7823000" />
+      <workItem from="1629267268649" duration="20916000" />
+      <workItem from="1629349785278" duration="1833000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

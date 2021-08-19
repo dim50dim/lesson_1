@@ -5,22 +5,49 @@ const util = require('util');
 
 
 
-const filePath = path.join(__dirname, 'boys', 'anna.txt')
-const  filePathNew= path.join(__dirname, 'girls','anna.txt')
-const folderNewPath = path.join(__dirname,'girls')
 
-const readPromise = util.promisify(fs.readFile);
 ///////////  JSON file
-const man = {
-    name: 'kate',
+const human = {
+    name: 'mark',
     age: 22,
     department: ' history',
-    gender : 'female',
+    gender: 'male',
+
 }
-////////////// HERE -- I WRITE FILES BY CREATING  JSON FORMAT
-// fs.writeFileSync('boys/kate.txt',JSON.stringify(man), err=>{
-//     if(err) console.log('Error')
-// } );
-readPromise(filePath).then(data=>{
-    console.log(data)
-})
+
+//////////// HERE -- WE WRITE FILES BY CREATING  JSON FORMAT
+fs.writeFileSync('girls/mark.txt',JSON.stringify(human), err=>{
+    if(err) console.log('Error')
+} );
+/////////////////////////////////////////////////////////////////////
+const boysFolder = path.join(__dirname,'boys')
+const girlsFolder = path.join(__dirname, 'girls')
+console.log(boysFolder)
+console.log(girlsFolder)
+
+const readFilePr = util.promisify(fs.readFile);
+const readDir = util.promisify(fs.readdir);
+const renameF = util.promisify(fs.rename);
+/////////////////////////////////////////////////////////////Function
+  async function takeTheRigth  (oldPath, newPath) {
+    try {
+        let data = await readDir(oldPath);
+        data.forEach(async elem => {
+            let current = path.join(oldPath, elem)
+            let other = path.join(newPath, elem);
+
+            const allian = JSON.parse(await readFilePr(current));
+
+            if (allian.gender.includes('fe')) {
+                renameF(current, other);
+            }
+        })
+    }
+    catch(err)
+        {
+            console.log('ERROR');
+        }
+
+}
+takeTheRigth(boysFolder,girlsFolder,'female');
+takeTheRigth(girlsFolder,boysFolder,'male')
