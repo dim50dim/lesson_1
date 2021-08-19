@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69d12ca3-2de1-4e7f-8ab5-4cbc9abbbb38" name="Changes" comment="">
+    <list default="true" id="69d12ca3-2de1-4e7f-8ab5-4cbc9abbbb38" name="Changes" comment="last fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boys/alex.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boys/anna.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boys/emma.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boys/kate.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boys/mike.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boys/olga.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/girls/alla.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/girls/john.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/girls/tifany.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/girls/tom.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +54,16 @@
       <option name="presentableId" value="Default" />
       <updated>1629267267258</updated>
       <workItem from="1629267268649" duration="20916000" />
-      <workItem from="1629349785278" duration="1833000" />
+      <workItem from="1629349785278" duration="3391000" />
     </task>
+    <task id="LOCAL-00001" summary="last fix">
+      <created>1629353341708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629353341708</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +80,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="last fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="last fix" />
   </component>
 </project>

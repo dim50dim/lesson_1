@@ -29,7 +29,7 @@ const readFilePr = util.promisify(fs.readFile);
 const readDir = util.promisify(fs.readdir);
 const renameF = util.promisify(fs.rename);
 /////////////////////////////////////////////////////////////Function
-  async function takeTheRigth  (oldPath, newPath) {
+  async function takeTheRigth  (oldPath, newPath,item) {
     try {
         let data = await readDir(oldPath);
         data.forEach(async elem => {
