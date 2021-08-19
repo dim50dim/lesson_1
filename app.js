@@ -38,7 +38,7 @@ const renameF = util.promisify(fs.rename);
 
             const allian = JSON.parse(await readFilePr(current));
 
-            if (allian.gender.includes('fe')) {
+            if (allian.gender.includes('female') ) {
                 renameF(current, other);
             }
         })
@@ -50,4 +50,4 @@ const renameF = util.promisify(fs.rename);
 
 }
 takeTheRigth(boysFolder,girlsFolder,'female');
-takeTheRigth(girlsFolder,boysFolder,'male')
+takeTheRigth(girlsFolder,boysFolder,'male');
